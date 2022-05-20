@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+<div id="main_view">
+    <h1>포켓몬빵을 얻고 말테야.</h1>
+    <div>포켓몬빵 정보 공유</div>
+    <div id="img_pokemon_bread">
+{#        <img style="width: 300px" src="static/imgs/pokemon_bread.jpeg">#}
+        <img width="500px" src="{{ url_for('static', filename='imgs/pokemon_bread.jpeg') }}">
+    </div>
+</div>
+
+
+</body>
+</html>
