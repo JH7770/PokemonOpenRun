@@ -8,5 +8,5 @@ WORKDIR /PokemonOpenRun/PokemonOpenRun
 
 RUN pip install -r requirements.txt
 
-#aENTRYPOINT ["uwsgi"]
+# ENTRYPOINT ["uwsgi"]
 CMD ["uwsgi", "app.ini"]
